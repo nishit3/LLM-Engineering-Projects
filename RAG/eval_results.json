@@ -1,0 +1,328 @@
+{
+  "retrieval": [
+    {
+      "mode": "Base",
+      "mrr": 0.9704,
+      "ndcg@5": 0.9773,
+      "hit@5": 1.0
+    },
+    {
+      "mode": "HyDE",
+      "mrr": 0.8753,
+      "ndcg@5": 0.8944,
+      "hit@5": 0.963
+    },
+    {
+      "mode": "Multi-query",
+      "mrr": 0.9722,
+      "ndcg@5": 0.9789,
+      "hit@5": 1.0
+    }
+  ],
+  "generation": {
+    "mean": {
+      "faithfulness": 10.0,
+      "answer_relevancy": 10.0,
+      "context_precision": 10.0
+    },
+    "per_query": [
+      {
+        "query": "What significant event occurred for Aethon Dynamics in 2022?",
+        "gold_topic": "Company Milestones",
+        "answer": "In 2022, Aethon Dynamics signed its first six-figure GridSense contract with Cascade Power & Light and closed its Series B funding.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the significant events for Aethon Dynamics in 2022 as stated in the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about significant events for Aethon Dynamics in 2022.",
+        "precision_reason": "The retrieved context provides relevant information about Aethon Dynamics' achievements in 2022, specifically mentioning the GridSense contract and Series B funding."
+      },
+      {
+        "query": "What award did VoltCore receive in 2023?",
+        "gold_topic": "Awards & Recognition",
+        "answer": "VoltCore received the **2023 GridEdge Innovation Award** for its degradation-aware battery dispatch approach.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding the award received by VoltCore.",
+        "relevancy_reason": "The answer directly addresses the question about the award received by VoltCore in 2023.",
+        "precision_reason": "The retrieved context contains specific information about the award, making it highly relevant to the question."
+      },
+      {
+        "query": "What is the title of the US Patent granted in 2024?",
+        "gold_topic": "Patents",
+        "answer": "The title of the US Patent granted in 2024 is \"Low-latency market-data reconciliation for distributed energy trading.\"",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the title of the US Patent granted in 2024 as stated in the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about the title of the US Patent granted in 2024.",
+        "precision_reason": "The retrieved context provides the exact information needed to answer the question regarding the patent title."
+      },
+      {
+        "query": "What recognition did VoltCore receive in a 2024 industry report?",
+        "gold_topic": "Notable Press",
+        "answer": "VoltCore was cited for the strongest forecasting accuracy among the companies reviewed in a 2024 industry report on the top battery-optimization vendors.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding VoltCore's recognition in the 2024 industry report.",
+        "relevancy_reason": "The answer directly addresses the question about the recognition VoltCore received in the specified report.",
+        "precision_reason": "The retrieved context contains specific and relevant information about VoltCore's citation for forecasting accuracy in the 2024 industry report."
+      },
+      {
+        "query": "Who built the forecasting models that reduced dispatch forecasting error at VoltCore?",
+        "gold_topic": "Technical Achievements",
+        "answer": "Aisha Rahman built the forecasting models that reduced dispatch forecasting error at VoltCore.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding who built the forecasting models at VoltCore.",
+        "relevancy_reason": "The answer directly addresses the question about who built the forecasting models, making it perfectly relevant.",
+        "precision_reason": "The retrieved context contains specific information about Aisha Rahman and her role in building the forecasting models, which is essential for answering the question."
+      },
+      {
+        "query": "In which year was Aethon Dynamics founded?",
+        "gold_topic": "Company Overview",
+        "answer": "Aethon Dynamics was founded in 2016.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the founding year of Aethon Dynamics as stated in the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about the founding year of Aethon Dynamics.",
+        "precision_reason": "The retrieved context provides clear and relevant information about the founding year of Aethon Dynamics."
+      },
+      {
+        "query": "What is Aethon's stated mission?",
+        "gold_topic": "Company Mission",
+        "answer": "Aethon's stated mission is to \"make the grid programmable\" — to give operators the same kind of real-time control and automation over physical energy assets that software teams take for granted in the cloud.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context without any inaccuracies or hallucinations.",
+        "relevancy_reason": "The answer directly addresses the question about Aethon's stated mission, providing the exact phrasing from the context.",
+        "precision_reason": "The retrieved context contains the exact mission statement of Aethon, making it highly relevant and precise for answering the question."
+      },
+      {
+        "query": "What are the three product lines operated by Aethon?",
+        "gold_topic": "Product Offerings",
+        "answer": "The three product lines operated by Aethon are:\n\n1. GridSense — a real-time grid monitoring and analytics platform.\n2. VoltCore — a battery energy storage optimization engine.\n3. PulseAPI — a market-data and energy-trading API for wholesale electricity markets.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "All claims in the answer are directly supported by the retrieved context, accurately listing the product lines and their descriptions.",
+        "relevancy_reason": "The answer directly addresses the question by providing the specific product lines operated by Aethon.",
+        "precision_reason": "The retrieved context contains detailed and relevant information about Aethon's product lines, making it highly useful for answering the question."
+      },
+      {
+        "query": "What is the total amount of funding raised by the company?",
+        "gold_topic": "Company Facts",
+        "answer": "The total amount of funding raised by the company is $180 million.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the funding amount stated in the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about the total funding raised by the company.",
+        "precision_reason": "The retrieved context provides clear and relevant information regarding the total funding raised, which is necessary to answer the question."
+      },
+      {
+        "query": "How many divisions does Aethon have and what are they?",
+        "gold_topic": "Company Structure",
+        "answer": "Aethon has four divisions: Engineering, Product, Go-to-Market (Sales & Marketing), and Operations.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Aethon's divisions.",
+        "relevancy_reason": "The answer directly addresses the question regarding the number and names of Aethon's divisions.",
+        "precision_reason": "The retrieved context contains clear and relevant information about Aethon's organizational structure, specifically detailing the divisions."
+      },
+      {
+        "query": "What is Dr. Maya Krishnan's role at Aethon Dynamics?",
+        "gold_topic": "Dr. Maya Krishnan",
+        "answer": "Dr. Maya Krishnan is the Chief Executive Officer (CEO) of Aethon Dynamics.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Dr. Maya Krishnan's role.",
+        "relevancy_reason": "The answer directly addresses the question regarding Dr. Maya Krishnan's role at Aethon Dynamics.",
+        "precision_reason": "The retrieved context contains specific and relevant information about Dr. Maya Krishnan's position as CEO."
+      },
+      {
+        "query": "What is Daniel Osei's role in the company?",
+        "gold_topic": "Daniel Osei",
+        "answer": "Daniel Osei is the Chief Technology Officer (CTO) and co-founder of the company, leading all of Engineering.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects Daniel Osei's role as stated in the retrieved context, including his title and responsibilities.",
+        "relevancy_reason": "The answer directly addresses the question about Daniel Osei's role in the company without any irrelevant information.",
+        "precision_reason": "The retrieved context provides clear and relevant information about Daniel Osei's position and duties, which supports the answer effectively."
+      },
+      {
+        "query": "What teams does Priya Venkatesh manage?",
+        "gold_topic": "Priya Venkatesh",
+        "answer": "Priya Venkatesh manages the platform and infrastructure teams.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Priya Venkatesh's management responsibilities.",
+        "relevancy_reason": "The answer directly addresses the question regarding the teams managed by Priya Venkatesh.",
+        "precision_reason": "The retrieved context contains specific details about Priya Venkatesh's role and the teams she manages, making it highly relevant."
+      },
+      {
+        "query": "What division does Marcus Bell lead?",
+        "gold_topic": "Marcus Bell",
+        "answer": "Marcus Bell leads the Go-to-Market division.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Marcus Bell's role.",
+        "relevancy_reason": "The answer directly addresses the question regarding which division Marcus Bell leads.",
+        "precision_reason": "The retrieved context contains clear and relevant information about Marcus Bell and the Go-to-Market division."
+      },
+      {
+        "query": "What role does Sofia Reyes hold at Aethon?",
+        "gold_topic": "Sofia Reyes",
+        "answer": "Sofia Reyes holds the role of VP of Product at Aethon Dynamics.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Sofia Reyes's role.",
+        "relevancy_reason": "The answer directly addresses the question regarding Sofia Reyes's position at Aethon.",
+        "precision_reason": "The retrieved context specifically mentions Sofia Reyes as the VP of Product, providing precise information needed to answer the question."
+      },
+      {
+        "query": "What year did Tom Whitaker join the company?",
+        "gold_topic": "Tom Whitaker",
+        "answer": "Tom Whitaker joined the company in 2017.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context about Tom Whitaker's joining year.",
+        "relevancy_reason": "The answer directly addresses the question regarding the year Tom Whitaker joined the company.",
+        "precision_reason": "The retrieved context contains specific information about Tom Whitaker, including the year he joined, making it highly relevant."
+      },
+      {
+        "query": "Who is the Lead Data Scientist at VoltCore?",
+        "gold_topic": "Selected Key Employees",
+        "answer": "The Lead Data Scientist at VoltCore is Aisha Rahman.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately states that Aisha Rahman is the Lead Data Scientist at VoltCore, which is directly supported by the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about who the Lead Data Scientist at VoltCore is, making it perfectly relevant.",
+        "precision_reason": "The retrieved context provides clear and specific information about Aisha Rahman's role at VoltCore, ensuring high precision."
+      },
+      {
+        "query": "What is the starting price for GridSense's subscription for monitoring up to 500 assets?",
+        "gold_topic": "GridSense Product Details",
+        "answer": "The starting price for GridSense's subscription for monitoring up to 500 assets is $2,500/month.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the context regarding the subscription price for monitoring up to 500 assets.",
+        "relevancy_reason": "The answer directly addresses the question about the starting price for GridSense's subscription.",
+        "precision_reason": "The retrieved context contains the necessary information about the pricing of GridSense's subscription, making it highly relevant."
+      },
+      {
+        "query": "What is the typical annual contract value range for VoltCore based on fleet size?",
+        "gold_topic": "VoltCore Product Details",
+        "answer": "The typical annual contract value range for VoltCore based on fleet size is $80,000–$400,000 per year.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding the annual contract value range for VoltCore.",
+        "relevancy_reason": "The answer directly addresses the question about the typical annual contract value for VoltCore based on fleet size.",
+        "precision_reason": "The retrieved context contains specific information about the contract values for VoltCore, making it highly relevant to the question."
+      },
+      {
+        "query": "What is the monthly cost of the Developer tier for PulseAPI?",
+        "gold_topic": "PulseAPI Product Details",
+        "answer": "The monthly cost of the Developer tier for PulseAPI is $500.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer is fully grounded in the context, accurately reflecting the information provided about the cost of the Developer tier for PulseAPI.",
+        "relevancy_reason": "The answer directly addresses the question regarding the monthly cost of the Developer tier, making it perfectly on-topic.",
+        "precision_reason": "The retrieved context contains the specific information needed to answer the question about the monthly cost of the Developer tier."
+      },
+      {
+        "query": "What type of contracts is the Aethon Grid Suite sold on?",
+        "gold_topic": "Aethon Grid Suite Overview",
+        "answer": "The Aethon Grid Suite is sold only on annual enterprise contracts.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer is fully grounded in the context, accurately reflecting the information provided about the Aethon Grid Suite's sales model.",
+        "relevancy_reason": "The answer directly addresses the question regarding the type of contracts for the Aethon Grid Suite, making it perfectly on-topic.",
+        "precision_reason": "The retrieved context contains clear and relevant information about the Aethon Grid Suite being sold on annual enterprise contracts."
+      },
+      {
+        "query": "Who leads the Go-to-Market division at Aethon Dynamics?",
+        "gold_topic": "Overview of Aethon Dynamics",
+        "answer": "The Go-to-Market division at Aethon Dynamics is led by VP of Sales Marcus Bell.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding the leadership of the Go-to-Market division.",
+        "relevancy_reason": "The answer directly addresses the question about who leads the Go-to-Market division, making it perfectly relevant.",
+        "precision_reason": "The retrieved context contains clear and specific information about the leadership structure of Aethon Dynamics, including the Go-to-Market division."
+      },
+      {
+        "query": "What percentage of annual recurring revenue does VoltCore account for?",
+        "gold_topic": "Revenue Growth and Breakdown",
+        "answer": "VoltCore accounts for roughly 58% of annual recurring revenue.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The claim that VoltCore accounts for roughly 58% of annual recurring revenue is directly supported by the retrieved context.",
+        "relevancy_reason": "The answer directly addresses the question about the percentage of annual recurring revenue that VoltCore accounts for.",
+        "precision_reason": "The retrieved context provides specific information about VoltCore's contribution to annual recurring revenue, making it highly relevant."
+      },
+      {
+        "query": "Which customer signed Aethon's first six-figure GridSense deal in 2022?",
+        "gold_topic": "Key Customers of Aethon",
+        "answer": "Cascade Power & Light signed Aethon's first six-figure GridSense deal in 2022.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding Aethon's first six-figure GridSense deal.",
+        "relevancy_reason": "The answer directly addresses the question about which customer signed the deal, providing the exact name requested.",
+        "precision_reason": "The retrieved context contains specific information about the deal and the customer, making it highly relevant to the question."
+      },
+      {
+        "query": "What is the average enterprise sales cycle duration for Aethon?",
+        "gold_topic": "Sales Strategy and Cycle",
+        "answer": "The average enterprise sales cycle duration for Aethon is six to nine months.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding the average sales cycle duration.",
+        "relevancy_reason": "The answer directly addresses the question about Aethon's average enterprise sales cycle duration.",
+        "precision_reason": "The retrieved context contains specific information about the sales cycle duration, making it highly relevant to the question."
+      },
+      {
+        "query": "What is the largest open opportunity in the current pipeline for Q4 2025?",
+        "gold_topic": "Sales Pipeline Overview",
+        "answer": "The largest open opportunity in the current pipeline for Q4 2025 is a Grid Suite deal with a multi-state utility, estimated at $1.8M/year, in final procurement.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context without any discrepancies.",
+        "relevancy_reason": "The answer directly addresses the question about the largest open opportunity in the pipeline for Q4 2025.",
+        "precision_reason": "The retrieved context contains all necessary details to answer the question, specifically identifying the largest opportunity and its estimated value."
+      },
+      {
+        "query": "Which region is identified as the fastest-growing for VoltCore?",
+        "gold_topic": "Market Regions and Growth",
+        "answer": "The California (CAISO) market is identified as the fastest-growing region for VoltCore.",
+        "faithfulness": 10,
+        "answer_relevancy": 10,
+        "context_precision": 10,
+        "faith_reason": "The answer accurately reflects the information provided in the retrieved context regarding the fastest-growing region for VoltCore.",
+        "relevancy_reason": "The answer directly addresses the question about which region is the fastest-growing for VoltCore.",
+        "precision_reason": "The retrieved context contains specific information about the California (CAISO) market being the fastest-growing region for VoltCore, making it highly relevant."
+      }
+    ]
+  }
+}

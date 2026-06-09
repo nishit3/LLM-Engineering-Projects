@@ -1,0 +1,164 @@
+[
+  {
+    "query": "What significant event occurred for Aethon Dynamics in 2022?",
+    "reference": "In 2022, Aethon Dynamics signed its first six-figure GridSense contract with Cascade Power & Light and closed its Series B funding.",
+    "gold_id": "achievements_chunk_1",
+    "gold_topic": "Company Milestones"
+  },
+  {
+    "query": "What award did VoltCore receive in 2023?",
+    "reference": "VoltCore received the 2023 GridEdge Innovation Award.",
+    "gold_id": "achievements_chunk_2",
+    "gold_topic": "Awards & Recognition"
+  },
+  {
+    "query": "What is the title of the US Patent granted in 2024?",
+    "reference": "Low-latency market-data reconciliation for distributed energy trading.",
+    "gold_id": "achievements_chunk_3",
+    "gold_topic": "Patents"
+  },
+  {
+    "query": "What recognition did VoltCore receive in a 2024 industry report?",
+    "reference": "VoltCore was cited for the strongest forecasting accuracy among the companies reviewed.",
+    "gold_id": "achievements_chunk_4",
+    "gold_topic": "Notable Press"
+  },
+  {
+    "query": "Who built the forecasting models that reduced dispatch forecasting error at VoltCore?",
+    "reference": "Lead Data Scientist Aisha Rahman.",
+    "gold_id": "achievements_chunk_5",
+    "gold_topic": "Technical Achievements"
+  },
+  {
+    "query": "In which year was Aethon Dynamics founded?",
+    "reference": "2016",
+    "gold_id": "company_overview_chunk_0",
+    "gold_topic": "Company Overview"
+  },
+  {
+    "query": "What is Aethon's stated mission?",
+    "reference": "Aethon's stated mission is to 'make the grid programmable'.",
+    "gold_id": "company_overview_chunk_1",
+    "gold_topic": "Company Mission"
+  },
+  {
+    "query": "What are the three product lines operated by Aethon?",
+    "reference": "GridSense, VoltCore, and PulseAPI.",
+    "gold_id": "company_overview_chunk_2",
+    "gold_topic": "Product Offerings"
+  },
+  {
+    "query": "What is the total amount of funding raised by the company?",
+    "reference": "$180M total raised.",
+    "gold_id": "company_overview_chunk_3",
+    "gold_topic": "Company Facts"
+  },
+  {
+    "query": "How many divisions does Aethon have and what are they?",
+    "reference": "Aethon has four divisions: Engineering, Product, Go-to-Market (Sales & Marketing), and Operations.",
+    "gold_id": "company_overview_chunk_4",
+    "gold_topic": "Company Structure"
+  },
+  {
+    "query": "What is Dr. Maya Krishnan's role at Aethon Dynamics?",
+    "reference": "Dr. Maya Krishnan is the Chief Executive Officer of Aethon Dynamics.",
+    "gold_id": "employees_chunk_1",
+    "gold_topic": "Dr. Maya Krishnan"
+  },
+  {
+    "query": "What is Daniel Osei's role in the company?",
+    "reference": "Chief Technology Officer and co-founder.",
+    "gold_id": "employees_chunk_2",
+    "gold_topic": "Daniel Osei"
+  },
+  {
+    "query": "What teams does Priya Venkatesh manage?",
+    "reference": "Priya Venkatesh manages the platform and infrastructure teams.",
+    "gold_id": "employees_chunk_3",
+    "gold_topic": "Priya Venkatesh"
+  },
+  {
+    "query": "What division does Marcus Bell lead?",
+    "reference": "Marcus Bell leads the Go-to-Market division.",
+    "gold_id": "employees_chunk_4",
+    "gold_topic": "Marcus Bell"
+  },
+  {
+    "query": "What role does Sofia Reyes hold at Aethon?",
+    "reference": "Sofia Reyes is the VP of Product at Aethon.",
+    "gold_id": "employees_chunk_5",
+    "gold_topic": "Sofia Reyes"
+  },
+  {
+    "query": "What year did Tom Whitaker join the company?",
+    "reference": "2017",
+    "gold_id": "employees_chunk_6",
+    "gold_topic": "Tom Whitaker"
+  },
+  {
+    "query": "Who is the Lead Data Scientist at VoltCore?",
+    "reference": "Aisha Rahman is the Lead Data Scientist at VoltCore.",
+    "gold_id": "employees_chunk_7",
+    "gold_topic": "Selected Key Employees"
+  },
+  {
+    "query": "What is the starting price for GridSense's subscription for monitoring up to 500 assets?",
+    "reference": "$2,500/month for up to 500 assets.",
+    "gold_id": "products_chunk_1",
+    "gold_topic": "GridSense Product Details"
+  },
+  {
+    "query": "What is the typical annual contract value range for VoltCore based on fleet size?",
+    "reference": "Typical contracts run $80,000–$400,000 per year depending on fleet size.",
+    "gold_id": "products_chunk_2",
+    "gold_topic": "VoltCore Product Details"
+  },
+  {
+    "query": "What is the monthly cost of the Developer tier for PulseAPI?",
+    "reference": "The monthly cost of the Developer tier for PulseAPI is $500.",
+    "gold_id": "products_chunk_3",
+    "gold_topic": "PulseAPI Product Details"
+  },
+  {
+    "query": "What type of contracts is the Aethon Grid Suite sold on?",
+    "reference": "The Aethon Grid Suite is sold only on annual enterprise contracts.",
+    "gold_id": "products_chunk_4",
+    "gold_topic": "Aethon Grid Suite Overview"
+  },
+  {
+    "query": "Who leads the Go-to-Market division at Aethon Dynamics?",
+    "reference": "VP of Sales Marcus Bell.",
+    "gold_id": "sales_chunk_0",
+    "gold_topic": "Overview of Aethon Dynamics"
+  },
+  {
+    "query": "What percentage of annual recurring revenue does VoltCore account for?",
+    "reference": "VoltCore accounts for roughly 58% of annual recurring revenue.",
+    "gold_id": "sales_chunk_1",
+    "gold_topic": "Revenue Growth and Breakdown"
+  },
+  {
+    "query": "Which customer signed Aethon's first six-figure GridSense deal in 2022?",
+    "reference": "Cascade Power & Light.",
+    "gold_id": "sales_chunk_2",
+    "gold_topic": "Key Customers of Aethon"
+  },
+  {
+    "query": "What is the average enterprise sales cycle duration for Aethon?",
+    "reference": "The average enterprise sales cycle is six to nine months.",
+    "gold_id": "sales_chunk_3",
+    "gold_topic": "Sales Strategy and Cycle"
+  },
+  {
+    "query": "What is the largest open opportunity in the current pipeline for Q4 2025?",
+    "reference": "A Grid Suite deal with a multi-state utility, estimated at $1.8M/year, in final procurement.",
+    "gold_id": "sales_chunk_4",
+    "gold_topic": "Sales Pipeline Overview"
+  },
+  {
+    "query": "Which region is identified as the fastest-growing for VoltCore?",
+    "reference": "The California (CAISO) market is the fastest-growing region for VoltCore.",
+    "gold_id": "sales_chunk_5",
+    "gold_topic": "Market Regions and Growth"
+  }
+]

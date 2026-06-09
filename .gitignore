@@ -1,2 +1,4 @@
 .env
 llm_engineering-main/
+.vscode/
+reg_env/
